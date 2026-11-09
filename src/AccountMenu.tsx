@@ -9,7 +9,7 @@ export interface AccountMenuLink {
 export interface AccountMenuProps {
   email: string
   fullName?: string | null
-  /** "<role> @ <jednotka>" - appka si ji poskládá přes @db/auth's getPrimaryRoleLabel. */
+  /** „Pozice · Podnik“ - appka si ho poskládá přes @db/auth's getPrimaryRoleLabel. */
   roleLabel?: string | null
   /** Položky menu v pořadí (Nastavení účtu, Administrace, ...) - appka si je sama vyfiltruje podle oprávnění. */
   links: AccountMenuLink[]
