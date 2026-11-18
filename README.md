@@ -4,6 +4,13 @@ Sdílený „rám“ všech D&B appek (redesign 2026-10): jednotná modrá hlavi
 menu účtu, plovoucí bublina s navigací na telefonu a modré mezistránky.
 Barvy a zaoblení přebírá z `@db/design-tokens`.
 
+## Ikony
+
+`import { Trash2, Pencil } from '@db/shell/icons'` – sada Lucide a vlastní
+ikony D&B na jednom místě. Pravidla a návod na vlastní ikonu:
+[src/icons/README.md](src/icons/README.md). Appka potřebuje
+`lucide-react` ve vlastních závislostech (stejná verze jako tady).
+
 ## Použití
 
 ```tsx
